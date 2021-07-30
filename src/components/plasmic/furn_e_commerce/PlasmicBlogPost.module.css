@@ -1,0 +1,95 @@
+.root {
+  display: flex;
+  width: 100%;
+  height: 400px;
+  position: relative;
+  flex-direction: column;
+  overflow: hidden;
+  max-width: 360px;
+  background: rgb(255, 255, 255);
+  min-width: 0;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: calc(0px - 5px);
+  height: calc(100% + 5px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 5px;
+}
+.root__long {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  min-width: 0;
+}
+.root__long > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: calc(0px - 10px);
+  width: calc(100% + 10px);
+  margin-top: calc(0px - 0px);
+  height: calc(100% + 0px);
+}
+.root__long > :global(.__wab_flex-container) > *,
+.root__long > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 10px;
+  margin-top: 0px;
+}
+.freeBox__orW33 {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  width: 100%;
+  height: 250px;
+  min-width: 0;
+  flex-shrink: 0;
+}
+.img__ig4LZ {
+  position: relative;
+  object-fit: cover;
+  width: 100%;
+  min-width: 0;
+}
+.freeBox__uxl2V {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.freeBox__uxl2V > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  margin-top: calc(0px - 5px);
+  height: calc(100% + 5px);
+}
+.freeBox__uxl2V > :global(.__wab_flex-container) > *,
+.freeBox__uxl2V > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 5px;
+}
+.freeBox__long__uxl2VpKhJc > :global(.__wab_flex-container) {
+  align-items: flex-start;
+}
+.slotTitle {
+  font-weight: 600;
+  text-align: left;
+}
+.slotAuthor {
+  color: rgb(188, 183, 178) /* plasmic-token: UbU1k7eeoV_VFg */;
+  font-size: 14px;
+}
+.slotDescription {
+  color: rgb(160, 158, 156) /* plasmic-token: uqUGwGVCvO2L6c */;
+  text-align: left;
+  font-size: 13px;
+}
+.slotDescription__long {
+  text-align: left;
+}
